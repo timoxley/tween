@@ -1,0 +1,12 @@
+{
+  "name": "tween",
+  "repo": "timoxley/tween",
+  "description": "Tweening Engine",
+  "version": "0.0.7",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}

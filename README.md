@@ -1,3 +1,8 @@
+# tween
+
+  Tweening Engine
+
+
 tween.js
 ========
 
@@ -30,19 +35,17 @@ Super simple, fast and easy to use tweening engine which incorporates optimised 
 [![The Wilderness Downtown](http://sole.github.com/tween.js/assets/projects/01_wilderness.png)](http://thewildernessdowntown.com/)
 [![Linechart](http://sole.github.com/tween.js/assets/projects/00_linechart.png)](http://dejavis.org/linechart)
 
+## Installation
+
+    $ component install timoxley/tween
+
 ### Usage ###
-
-Download the [minified library](http://github.com/sole/tween.js/raw/master/build/Tween.js) and include it in your html.
-
-```html
-<script src="js/Tween.js"></script>
-```
 
 The following code creates a Tween which will change the `x` attribute in a position variable, so that it goes from 50 to 400 in 2 seconds. The anonymous function set up with an interval will update the screen so that we can see something happening:
 
 ```html
 <script>
-
+  var TWEEN = require('tween');
 	init();
 	animate();
 
@@ -93,6 +96,9 @@ No, we like to keep it simple and free of dependencies. Feel free to make one yo
 
 
 ### Change log ###
+
+2012 10 20 - **0.0.7** Componentize.
+([timoxley](http://github.com/timoxley))
 
 2012 04 10 - **r6** (4,707 KB, gzip: 1,630 KB)
 
